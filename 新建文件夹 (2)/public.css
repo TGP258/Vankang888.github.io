@@ -1,0 +1,98 @@
+@charset "utf-8";
+.doc {
+    background: url("body_bg.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/body_bg.jpg*/ top left repeat-x #fff;
+    width: 100%;
+}
+.nav ul {
+    background-image: url("navbg.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/navbg.jpg*/;
+    height: 41px;
+    line-height: 41px;
+}
+
+#menu li a:hover {
+    background-image: url("nav_hover.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/nav_hover.jpg*/;
+    height: 41px;
+    color: #033e76;
+}
+.ltab .maintit {
+    background-image: url("info_tit.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/info_tit.jpg*/;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 25px;
+    color: #fff;
+}
+
+.lcom .maintit {
+    background: url("info_tit1.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/info_tit1.jpg*/ no-repeat;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    color: #fff;
+}
+
+.lcom .content {
+    border: 1px solid #cccccc;
+    border-top: none;
+    background: url("l_bg.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/l_bg.jpg*/ repeat-x;
+    padding: 10px;
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.rtab .maintit, .rcom .maintit {
+    background-image: url("tit_bg.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/tit_bg.jpg*/;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 25px;
+    color: #FFF;
+}
+
+.ltab .content, .lcom .content, .rcom .content, .rtab .content, .nrtab .content {
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.ltab .maintit .more, .rtab .maintit .more {
+    float: right;
+    margin-right: 10px;
+}
+
+/*中间 2012-10-18增加*/
+.mtab .maintit {
+    background-image: url("tit_bg.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/tit_bg.jpg*/;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 36px;
+    color: #fff;
+}
+
+.mtab .sort li {
+    background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 0;
+}
+
+/*内页样式*/
+.nrtab .maintit {
+    background-image: url("tit_bg.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/tit_bg.jpg*/;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 25px;
+}
+
+    .nrtab .maintit b {
+        color: #fff;
+    }
+
+/*底部*/
+.botomtab {
+    width: 100%;
+    background-color: #efefef;
+}
+
+/* 万能模块 */
+.univer .maintit {
+    background-image: url("tit_bg1.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/tit_bg1.jpg*/;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 25px;
+    color: #FFF;
+}

@@ -1,0 +1,2528 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: arial, "宋体";
+    color: #313131;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: left;
+}
+
+body, html, div, span, a, td, th, tr, table, form, p, dd, dt, li, dl, ol, ul, h6, h5, h4, h3, h2, h1, input {
+    margin: 0;
+    padding: 0;
+}
+
+    ul li {
+        list-style: none;
+    }
+
+ul {
+    list-style: none;
+}
+
+img {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+a {
+    color: #373737;
+    text-decoration: none;
+    outline: none;
+}
+
+    a:link {
+        color: #373737;
+        text-decoration: none;
+        outline: none;
+    }
+
+    a:visited {
+        color: #373737;
+        text-decoration: none;
+        outline: none;
+    }
+
+    a:hover {
+        color: #ff6600;
+        text-decoration: underline;
+        outline: none;
+    }
+
+.doc {
+    background: #fff;
+    width: 100%;
+}
+
+.wrapper {
+    width: 990px;
+    margin: 0 auto;
+    text-align: left;
+    zoom: 1;
+    overflow: hidden;
+}
+
+.clear {
+    height: 0;
+    width: 0;
+    clear: both;
+    zoom: 1;
+    overflow: hidden;
+}
+
+/*字体颜色*/
+.orange {
+    color: #f27b04;
+}
+
+    .orange a {
+        color: #f27b04;
+    }
+
+        .orange a:link {
+            color: #f27b04;
+        }
+
+        .orange a:visited {
+            color: #f27b04;
+        }
+
+        .orange a:hover {
+            color: #f27b04;
+        }
+
+.blue {
+    color: #0187d0;
+}
+
+    .blue a {
+        color: #0187d0;
+    }
+
+        .blue a:link {
+            color: #0187d0;
+        }
+
+        .blue a:visited {
+            color: #0187d0;
+        }
+
+        .blue a:hover {
+            color: #0187d0;
+        }
+
+.blue1 {
+    color: #032694;
+}
+
+    .blue1 a {
+        color: #032694;
+    }
+
+        .blue1 a:link {
+            color: #032694;
+        }
+
+        .blue1 a:visited {
+            color: #032694;
+        }
+
+        .blue1 a:hover {
+            color: #ff6600;
+        }
+
+.fcolor {
+    color: #00887c;
+}
+
+    .fcolor a {
+        color: #00887c;
+    }
+
+        .fcolor a:link {
+            color: #00887c;
+        }
+
+        .fcolor a:visited {
+            color: #00887c;
+        }
+
+        .fcolor a:hover {
+            color: #ff6600;
+        }
+
+.white {
+    font: bold 14px/22px Arial, Helvetica, sans-serif,"宋体";
+    color: #fff;
+}
+
+.gray {
+    color: #626262;
+}
+
+.red {
+    color: #ff0600;
+}
+
+.black {
+    color: #313131;
+}
+
+/*公告样式*/
+.f14 {
+    font-size: 14px;
+}
+
+.line24 {
+    line-height: 24px;
+}
+
+.line28 {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml30 {
+    margin-left: 35px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.pb {
+    padding-bottom: 10px;
+}
+
+.bk {
+    border-bottom: 1px dotted #aaa;
+}
+
+.br {
+    border-right: 1px solid #cfcfcf;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+/*顶部样式*/
+.topbar {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+    .topbar .toptab {
+        width: 990px;
+        height: 38px;
+        line-height: 38px;
+        margin: 0 auto;
+        color: #666;
+        overflow: hidden;
+    }
+
+        .topbar .toptab .greet {
+            padding-left: 10px;
+            float: left;
+        }
+
+#site-nav {
+    font-family: "宋体";
+    line-height: 38px;
+    margin-left: 10px;
+}
+
+    #site-nav .orange a {
+        color: #F27B04;
+    }
+
+    #site-nav .blue a {
+        color: #0187D0;
+    }
+
+    #site-nav span {
+        margin-left: 5px;
+    }
+
+    #site-nav .blue a:hover {
+        color: #F27B04;
+        text-decoration: underline;
+    }
+
+    #site-nav b.blue {
+        font-weight: normal;
+    }
+
+input.fl {
+    height: 19px;
+    border: 1px solid #CCC;
+    line-height: 19px;
+    width: 177px;
+    padding-left: 3px;
+}
+
+.toptab .fr {
+    padding-top: 4px;
+}
+
+.tcd {
+    float: right;
+    margin-left: 30px;
+}
+
+.toptab .search_btn, .toptab .search_btn1 {
+    width: 43px;
+    height: 19px;
+    line-height: 19px;
+    margin: 5px 0 0 5px;
+    padding: 2px 0 0 20px;
+}
+
+.toptab .search_btn {
+    background: url("ico1.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico1.gif*/ no-repeat 0 0;
+}
+
+.toptab .search_btn1 {
+    background: url("ico1.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico1.gif*/ no-repeat 0 -23px;
+    text-decoration: none;
+    color: #666;
+}
+
+/*左中右*/
+.leftbox {
+    width: 242px;
+    float: left;
+}
+
+.rightbox {
+    width: 746px;
+    float: right;
+}
+
+.midbox {
+    width: 492px;
+    float: left;
+    margin: 0 7px;
+}
+
+/*LOGO和banner*/
+.logotab {
+    position: relative;
+    width: 990px;
+    margin: 0 auto;
+}
+
+.logotit {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.bannertab {
+    position: relative;
+    width: 990px;
+    margin: 10px auto 0 auto;
+}
+
+.bannertit {
+    position: absolute;
+    left: 190px;
+    top: 35px;
+    height: 22px;
+}
+
+.bannerimg {
+    min-height: 200px;
+}
+
+/*导航条部分*/
+.nav {
+    width: 990px;
+    position: relative;
+    margin: 0 auto;
+}
+
+    .nav ul {
+        background: #454545;
+        background-repeat: no-repeat;
+        height: 37px;
+        line-height: 37px;
+    }
+
+#menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+    #menu li {
+        float: left;
+    }
+
+        #menu li a {
+            display: block;
+            float: left;
+            width: 90px;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+            #menu li a:hover {
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 37px;
+                width: 90px;
+                display: block;
+                color: #000;
+                text-decoration: none;
+            }
+
+.ltab {
+    width: 238px;
+    background-color: #fff;
+}
+
+    .ltab .maintit {
+        background: #454545;
+        background-repeat: no-repeat;
+        height: 34px;
+        line-height: 34px;
+        color: #fff;
+        padding-left: 20px;
+    }
+
+        .ltab .maintit .more {
+            float: right;
+            margin-right: 10px;
+        }
+
+    .ltab .content {
+        border: 1px solid #e3e3e3;
+        border-top: none;
+        overflow: hidden;
+        _zoom: 1;
+    }
+
+/*左侧--公司信息*/
+.lcom {
+    width: 238px;
+    background: #fff;
+}
+
+    .lcom .maintit {
+        background: #454545;
+        background-repeat: no-repeat;
+        height: 34px;
+        line-height: 34px;
+        color: #fff;
+        padding-left: 20px;
+    }
+
+    .lcom .content {
+        border: 1px solid #e3e3e3;
+        border-top: none;
+        padding: 10px;
+        overflow: hidden;
+        _zoom: 1;
+    }
+
+.lcomshow li {
+    border-bottom: 1px dotted #aaa;
+    padding: 7px 1px;
+}
+
+.lcomshow li .year{ width:130px; height:18px; line-height:18px; background-color:#ea0f1f; border-radius:2px; color:#fff; margin:10px 0 0 45px; }
+.lcomshow li .year .vip{ width:25px; height:18px; background:url("vtb.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/vtb.jpg*/; float:left; }
+
+/*左侧--产品分类*/
+.pnav-cnt {
+    BACKGROUND: url("bg11.png")/*tpa=http://www.jdzj.com/JDZJStyle/Shop/images/bg11.png*/ repeat-y;
+    width: 234px;
+    overflow: hidden;
+    border-right-color: rgb(238, 238, 238);
+    border-left-color: rgb(238, 238, 238);
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+.pnav-box {
+    BACKGROUND: url("bg08.jpg")/*tpa=http://www.jdzj.com/JDZJStyle/Shop/images/bg08.jpg*/ no-repeat;
+}
+
+.box-title {
+    PADDING-LEFT: 7px;
+    LINE-HEIGHT: 32px;
+    HEIGHT: 32px;
+}
+
+    .box-title .btn-unfold {
+        MARGIN-TOP: 10px;
+    }
+
+    .box-title .btn-fold {
+        MARGIN-TOP: 10px;
+    }
+
+.pnav-letter {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    text-decoration: none;
+}
+
+.btn-unfold {
+    BACKGROUND: url("bg10.png")/*tpa=http://www.jdzj.com/JDZJStyle/Shop/images/bg10.png*/ no-repeat;
+    FLOAT: left;
+    WIDTH: 13px;
+    MARGIN-RIGHT: 5px;
+    HEIGHT: 13px;
+}
+
+.btn-fold {
+    BACKGROUND: url("bg09.png")/*tpa=http://www.jdzj.com/JDZJStyle/Shop/images/bg09.png*/ no-repeat;
+    FLOAT: left;
+    WIDTH: 13px;
+    MARGIN-RIGHT: 5px;
+    HEIGHT: 13px;
+}
+
+.box-list {
+    margin: 0;
+    padding-left: 30px;
+}
+
+    .box-list LI {
+        LINE-HEIGHT: 25px;
+        text-decoration: none;
+    }
+
+        .box-list LI a {
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+            .box-list LI A:visited {
+                text-decoration: none;
+                font-size: 12px;
+            }
+
+.hidden {
+    DISPLAY: none;
+}
+
+/*左侧--病历列表*/
+.ltab .topic {
+    padding: 10px;
+}
+
+    .ltab .topic li {
+        background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 -283px;
+        padding-left: 13px;
+        border-bottom: 1px dotted #aaa;
+        font-weight: bold;
+        line-height: 28px;
+        overflow: hidden;
+        height: 28px;
+    }
+
+/*左侧--产品展示*/
+.ltab .pro dl {
+    border-bottom: 1px dotted #aaa;
+    width: 215px;
+    height: 80px;
+    margin: 5px 5px 5px 10px;
+}
+
+.ltab .pro dt {
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    *line-height: 60px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: center;
+    float: left;
+    margin: 3px 7px 0 0;
+    display: table;
+}
+
+    .ltab .pro dt a {
+        height: 100%;
+        vertical-align: middle\9;
+        _writing-mode: tb-rl;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .ltab .pro dt img {
+        vertical-align: middle;
+        max-height: 60px !important;
+        max-width: 60px !important;
+    }
+
+/*左侧--产品滚动展示*/
+.ltab .roll li {
+    border-bottom: 1px dotted #aaa;
+    width: 215px;
+    height: 80px;
+    margin: 5px 5px 5px 10px;
+}
+
+.ltab .roll .proimg {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    margin: 3px 7px 0 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+    .ltab .roll .proimg img {
+        vertical-align: middle;
+        max-height: 60px !important;
+        max-width: 60px !important;
+    }
+
+.ltab .roll .proname {
+    width: 134px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    float: left;
+}
+
+i {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/*左侧--产品橱窗*/
+.ltab .psc dl {
+    border-bottom: 1px dotted #aaa;
+    width: 215px;
+    height: 80px;
+    margin: 5px 5px 5px 10px;
+}
+
+.ltab .psc dt {
+    width: 60px;
+    height: 60px;
+    *line-height: 60px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    margin: 3px 7px 0 0;
+    display: table;
+}
+
+    .ltab .psc dt a {
+        height: 100%;
+        vertical-align: middle\9;
+        _writing-mode: tb-rl;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .ltab .psc dt img {
+        vertical-align: middle;
+        max-height: 60px !important;
+        max-width: 60px !important;
+    }
+
+/*左侧-资质荣誉*/
+.ltab .honor dl {
+    border-bottom: 1px dotted #aaa;
+    width: 215px;
+    height: 80px;
+    margin: 0 5px 5px 10px;
+}
+
+.ltab .honor dt {
+    width: 60px;
+    height: 60px;
+    *line-height: 60px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    margin: 3px 7px 0 0;
+    display: table;
+}
+
+    .ltab .honor dt a {
+        height: 100%;
+        vertical-align: middle\9;
+        _writing-mode: tb-rl;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .ltab .honor dt img {
+        vertical-align: middle;
+        max-height: 60px !important;
+        max-width: 60px !important;
+    }
+
+.ltab .pic dl {
+    width: 210px;
+    height: 76px;
+    float: left;
+    overflow: hidden;
+    padding: 5px 0 5px 10px;
+}
+
+    .ltab .pic dl dt {
+        width: 60px;
+        height: 60px;
+        padding: 2px 6px 6px 2px;
+        float: left;
+        overflow: hidden;
+        background: url("pic_bg.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/pic_bg.gif*/ no-repeat;
+        display: table;
+    }
+
+        .ltab .pic dl dt a {
+            overflow: hidden;
+            text-align: center;
+            display: block;
+            height: 60px;
+            width: 60px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+            .ltab .pic dl dt a img {
+                overflow: hidden;
+                max-height: 60px;
+                max-width: 60px;
+                vertical-align: middle;
+                display: block;
+                margin: 0 auto;
+            }
+
+    .ltab .pic dl dd {
+        float: left;
+        width: 95px;
+        margin: 10px 0 0 10px;
+    }
+
+.ltab .enlarge ul li {
+    width: 216px;
+    float: left;
+    overflow: hidden;
+}
+
+.ltab .enlarge .enimg {
+    width: 216px;
+    height: 216px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+    .ltab .enlarge .enimg img {
+        vertical-align: middle;
+        max-height: 216px !important;
+        max-width: 216px !important;
+    }
+
+.ltab .ser dl {
+    width: 220px;
+    height: 72px;
+    margin: 10px 5px 10px 10px;
+    overflow: hidden;
+}
+
+.ltab .ser dt {
+    width: 60px;
+    height: 60px;
+    *line-height: 60px;
+    border: 1px solid #ddd;
+    text-align: center;
+    overflow: hidden;
+    padding: 1px;
+    float: left;
+    margin: 3px 7px 0 0;
+    display: table;
+}
+
+    .ltab .ser dt a {
+        height: 100%;
+        vertical-align: middle\9;
+        _writing-mode: tb-rl;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .ltab .ser dt img {
+        vertical-align: middle;
+        max-height: 60px !important;
+        max-width: 60px !important;
+    }
+
+.ltab .ser dd {
+    width: 140px;
+    word-break: break-all;
+    overflow: hidden;
+    float: left;
+}
+
+.ltab .news {
+    padding: 10px;
+}
+
+    .ltab .news li {
+        background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 -17px;
+        padding-left: 10px;
+        border-bottom: 1px dotted #aaa;
+        line-height: 26px;
+        overflow: hidden;
+        height: 26px;
+    }
+
+.ltab .link {
+    padding: 10px;
+}
+
+    .ltab .link a {
+        padding: 3px 5px;
+    }
+
+.ltab .linkimg {
+    padding: 5px;
+}
+
+    .ltab .linkimg li {
+        padding: 5px 5px;
+        float: left;
+    }
+
+        .ltab .linkimg li img {
+            width: 100px;
+            height: 40px;
+            border: 1px solid #c8c8c8;
+        }
+
+.rtab {
+    width: 742px;
+    background-color: #fff;
+    float: right;
+}
+
+    .rtab .maintit {
+        background: #454545;
+        background-repeat: no-repeat;
+        height: 34px;
+        line-height: 34px;
+        color: #fff;
+        padding-left: 20px;
+    }
+
+        .rtab .maintit .more {
+            float: right;
+            margin-right: 10px;
+        }
+
+    .rtab .content {
+        border: 1px solid #e3e3e3;
+        border-top: none;
+        height: auto;
+        overflow: hidden;
+        _zoom: 1;
+    }
+
+.rcom {
+    width: 742px;
+    background: #fff;
+    float: right;
+}
+
+    .rcom .maintit {
+        background: #454545;
+        background-repeat: no-repeat;
+        height: 34px;
+        line-height: 34px;
+        color: #fff;
+        padding-left: 20px;
+    }
+
+    .rcom .content {
+        border: 1px solid #e3e3e3;
+        border-top: none;
+        padding: 10px;
+        overflow: hidden;
+        _zoom: 1;
+    }
+
+.rtab .sort {
+    padding: 10px;
+}
+
+    .rtab .sort li {
+        border-bottom: 1px dotted #aaa;
+        line-height: 26px;
+        overflow: hidden;
+        height: 25px;
+    }
+
+.rtab .topic {
+    padding: 10px;
+}
+
+    .rtab .topic li {
+        background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 -283px;
+        padding-left: 13px;
+        border-bottom: 1px dotted #aaa;
+        font-weight: bold;
+        line-height: 28px;
+        overflow: hidden;
+        height: 28px;
+    }
+
+/*右侧--产品展示*/
+.rtab .pro dl {
+    float: left;
+    padding: 6px 5px 6px 11px;
+    margin: 5px 0;
+}
+
+.rtab .pro dt {
+    width: 164px;
+    height: 164px;
+    *line-height: 164px;
+    border: 1px solid #ddd;
+    text-align: center;
+    overflow: hidden;
+    padding: 1px;
+    margin-bottom: 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    .rtab .pro dt a {
+        height: 100%;
+        vertical-align: middle\9;
+        _writing-mode: tb-rl;
+    }
+
+    .rtab .pro dt img {
+        vertical-align: middle;
+        max-height: 164px !important;
+        max-width: 164px !important;
+    }
+
+/*右侧--产品滚动展示*/
+.rtab .roll ul li {
+    width: 168px;
+    float: left;
+    padding: 11px 8px;
+    overflow: hidden;
+}
+
+.rtab .roll .proimg {
+    width: 164px;
+    height: 164px;
+    border: 1px solid #ddd;
+    text-align: center;
+    overflow: hidden;
+    padding: 1px;
+    margin-bottom: 5px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+    .rtab .roll .proimg img {
+        vertical-align: middle;
+        max-height: 160px !important;
+        max-width: 160px !important;
+    }
+
+.rtab .roll .proname {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/*右侧--产品橱窗*/
+.rtab .psc dl {
+    float: left;
+    padding: 6px 5px 6px 11px;
+    margin: 5px 0;
+}
+
+.rtab .psc dt {
+    width: 164px;
+    height: 164px;
+    *line-height: 164px;
+    border: 1px solid #ddd;
+    text-align: center;
+    overflow: hidden;
+    padding: 1px;
+    margin-bottom: 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    .rtab .psc dt a {
+        height: 100%;
+        vertical-align: middle\9;
+        _writing-mode: tb-rl;
+    }
+
+    .rtab .psc dt img {
+        vertical-align: middle;
+        max-height: 164px !important;
+        max-width: 164px !important;
+    }
+
+/*右侧-资质荣誉*/
+.rtab .honor dl {
+    float: left;
+    padding: 6px 5px 6px 11px;
+    margin: 5px 0;
+}
+
+.rtab .honor dt {
+    width: 164px;
+    height: 164px;
+    *line-height: 164px;
+    border: 1px solid #ddd;
+    text-align: center;
+    overflow: hidden;
+    padding: 1px;
+    margin-bottom: 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    .rtab .honor dt a {
+        height: 100%;
+        vertical-align: middle\9;
+        _writing-mode: tb-rl;
+    }
+
+    .rtab .honor dt img {
+        vertical-align: middle;
+        max-height: 164px !important;
+        max-width: 164px !important;
+    }
+
+/*右侧--相册*/
+.rtab .pic {
+    overflow: hidden;
+    padding: 6px 2px 6px 7px;
+    line-height: 18px;
+}
+
+    .rtab .pic dl {
+        float: left;
+        width: 182px;
+        margin-bottom: 10px;
+    }
+
+        .rtab .pic dl dt {
+            height: 164px;
+            width: 164px;
+            position: relative;
+            float: left;
+            overflow: hidden;
+            background: url("li_bg1.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/li_bg1.gif*/ no-repeat;
+            padding: 3px 10px 11px 3px;
+            display: table;
+        }
+
+            .rtab .pic dl dt a {
+                overflow: hidden;
+                text-align: center;
+                display: block;
+                height: 164px;
+                width: 164px;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+                .rtab .pic dl dt a img {
+                    overflow: hidden;
+                    max-height: 164px;
+                    max-width: 164px;
+                    vertical-align: middle;
+                    display: block;
+                    margin: 0 auto;
+                }
+
+        .rtab .pic dl dd {
+            width: 182px;
+            text-align: center;
+        }
+
+.rtab .enlarge ul li {
+    width: 400px;
+    float: left;
+    overflow: hidden;
+    padding: 0 4px;
+}
+
+.rtab .enlarge .enimg {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+    .rtab .enlarge .enimg img {
+        vertical-align: middle;
+        max-height: 400px !important;
+        max-width: 400px !important;
+    }
+
+/*右侧--企业资讯*/
+.rtab .news {
+    padding: 10px;
+}
+
+    .rtab .news li {
+        background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 -17px;
+        padding-left: 10px;
+        border-bottom: 1px dotted #aaa;
+        line-height: 26px;
+        overflow: hidden;
+        height: 26px;
+    }
+
+/*右侧--服务项目*/
+.rtab .ser dl {
+    float: left;
+    padding: 10px 9px;
+    line-height: 22px;
+    width: 350px;
+}
+
+.rtab .ser dt {
+    width: 164px;
+    height: 164px;
+    *line-height: 164px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 10px;
+    display: table;
+}
+
+    .rtab .ser dt a {
+        height: 100%;
+        vertical-align: middle\9;
+        _writing-mode: tb-rl;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .rtab .ser dt img {
+        vertical-align: middle;
+        max-height: 164px !important;
+        max-width: 164px !important;
+    }
+
+.rtab .ser dd {
+    width: 170px;
+    word-break: break-all;
+    overflow: hidden;
+    float: left;
+}
+
+.rtab .link {
+    padding: 10px;
+}
+
+    .rtab .link a {
+        padding: 3px 5px;
+    }
+
+.rtab .linkimg {
+    padding: 10px;
+}
+
+    .rtab .linkimg li {
+        padding: 5px 9px;
+        float: left;
+    }
+
+        .rtab .linkimg li img {
+            width: 100px;
+            height: 40px;
+            border: 1px solid #c8c8c8;
+        }
+
+.mtab {
+    width: 488px;
+    background-color: #fff;
+}
+
+    .mtab .maintit {
+        background: #454545;
+        background-repeat: no-repeat;
+        height: 30px;
+        line-height: 30px;
+        border-bottom: 2px solid #9a0002;
+        padding-left: 20px;
+    }
+
+        .mtab .maintit b {
+            display: block;
+            float: left;
+            width: 112px;
+            height: 30px;
+            padding-left: 20px;
+            color: #fff;
+        }
+
+    .mtab .content {
+        border: 1px solid #c0c0c0;
+        border-top: none;
+        height: auto;
+        overflow: hidden;
+        _zoom: 1;
+    }
+
+    /*中间--产品分类*/
+    .mtab .sort {
+        padding: 10px;
+    }
+
+        .mtab .sort li {
+            background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 0;
+            padding-left: 20px;
+            border-bottom: 1px dotted #aaa;
+            font-weight: bold;
+            height: 25px;
+            line-height: 26px;
+            overflow: hidden;
+        }
+
+    /*中间--产品展示*/
+    .mtab .pro dl {
+        float: left;
+        padding: 6px 5px 6px 11px;
+        margin: 5px 0;
+        line-height: 18px;
+    }
+
+    .mtab .pro dt {
+        overflow: hidden;
+        width: 140px;
+        height: 140px;
+        padding: 1px;
+        border: 1px solid #ddd;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+        .mtab .pro dt a {
+            height: 100%;
+            vertical-align: middle\9;
+            _writing-mode: tb-rl;
+        }
+
+        .mtab .pro dt img {
+            vertical-align: middle;
+            max-height: 140px;
+            max-width: 140px;
+        }
+
+    /*中间--产品橱窗*/
+    .mtab .psc dl {
+        float: left;
+        padding: 6px 5px 6px 11px;
+        margin: 5px 0;
+        line-height: 18px;
+    }
+
+    .mtab .psc dt {
+        overflow: hidden;
+        width: 140px;
+        height: 140px;
+        padding: 1px;
+        border: 1px solid #ddd;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+        .mtab .psc dt a {
+            height: 100%;
+            vertical-align: middle\9;
+            _writing-mode: tb-rl;
+        }
+
+        .mtab .psc dt img {
+            vertical-align: middle;
+            max-height: 140px;
+            max-width: 140px;
+        }
+
+    /*中间-资质荣誉*/
+    .mtab .honor dl {
+        float: left;
+        padding: 6px 5px 6px 11px;
+        margin: 5px 0;
+        line-height: 18px;
+    }
+
+    .mtab .honor dt {
+        overflow: hidden;
+        width: 140px;
+        height: 140px;
+        padding: 1px;
+        border: 1px solid #ddd;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+        .mtab .honor dt a {
+            height: 100%;
+            vertical-align: middle\9;
+            _writing-mode: tb-rl;
+        }
+
+        .mtab .honor dt img {
+            vertical-align: middle;
+            max-height: 140px;
+            max-width: 140px;
+        }
+
+    .mtab .pic {
+        overflow: hidden;
+        padding: 10px 2px 6px 13px;
+        line-height: 18px;
+    }
+
+        .mtab .pic dl {
+            height: 190px;
+            width: 142px;
+            position: relative;
+            float: left;
+            overflow: hidden;
+            background: url("li_bg4.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/li_bg4.gif*/ no-repeat;
+            padding: 3px 10px 11px 3px;
+        }
+
+            .mtab .pic dl dt a {
+                overflow: hidden;
+                text-align: center;
+                position: relative;
+                display: block;
+                height: 130px;
+                width: 130px;
+            }
+
+                .mtab .pic dl dt a img {
+                    vertical-align: text-top;
+                    overflow: hidden;
+                    position: relative;
+                }
+
+            .mtab .pic dl dd {
+                float: left;
+                width: 146px;
+                text-align: center;
+            }
+
+    .mtab .link {
+        padding: 10px;
+    }
+
+        .mtab .link a {
+            padding: 3px 5px;
+        }
+
+    .mtab .linkimg {
+        padding: 10px;
+    }
+
+        .mtab .linkimg li {
+            padding: 5px 9px;
+            float: left;
+        }
+
+            .mtab .linkimg li img {
+                width: 100px;
+                height: 40px;
+                border: 1px solid #c8c8c8;
+            }
+
+/*内页样式*/
+.nrtab {
+    width: 742px;
+    background-color: #fff;
+    float: right;
+}
+
+    .nrtab .maintit {
+        background-image: url("titbg.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/titbg.jpg*/;
+        background-repeat: no-repeat;
+        height: 34px;
+        line-height: 34px;
+        padding-left: 20px;
+        color: #fff;
+    }
+
+    .nrtab .content {
+        border: 1px solid #e3e3e3;
+        border-top: none;
+        height: auto;
+        overflow: hidden;
+        _zoom: 1;
+        width: 740px;
+    }
+
+/*内页右侧--公司介绍*/
+.detail {
+    width: 735px;
+    margin-left: 3px;
+    padding-bottom: 15px;
+}
+
+    .detail .detailetit, .honor .h_title {
+        background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ repeat-x 0 -252px;
+        height: 28px;
+        line-height: 28px;
+        padding-left: 15px;
+        border-top: 1px solid #e3e3e3;
+    }
+
+    .detail table tr td {
+        border-bottom: 1px solid #fff;
+    }
+
+/*内页右侧--留言板*/
+.prompt {
+    background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 -150px;
+    padding-left: 12px;
+}
+
+.btn {
+    background: url("btn.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/btn.gif*/ no-repeat;
+    width: 152px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    display: block;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+/*内页右侧-资质荣誉*/
+.nrtab .honor1 dl {
+    float: left;
+    padding: 6px 30px 6px 30px;
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+.nrtab .honor1 dt {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    .nrtab .honor1 dt a {
+        height: 100%;
+        vertical-align: middle\9;
+        _writing-mode: tb-rl;
+    }
+
+    .nrtab .honor1 dt img {
+        vertical-align: middle;
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+.nrtab .honor1 dl dd {
+    text-align: center;
+    margin-top: 7px;
+}
+
+/*内页右侧-采购终端信息*/
+.n_title {
+    height: 30px;
+    padding-top: 15px;
+    border-bottom: 1px dotted #c6c6c6;
+    width: 735px;
+    text-align: center;
+    font: bold 18px/22px "微软雅黑";
+}
+
+.n_time {
+    width: 735px;
+    text-align: center;
+}
+
+.page1 {
+    height: 22px;
+    line-height: 24px;
+    background: #e4ecf3;
+    width: 735px;
+    margin: 80px 0 80px 3px;
+}
+
+    .page1 .left {
+        background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 7px -165px;
+        padding-left: 27px;
+    }
+
+    .page1 .right {
+        background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 -184px;
+        padding-left: 20px;
+    }
+
+/*内页右侧--企业资讯*/
+.nrtab .news {
+    padding: 10px;
+}
+
+    .nrtab .news li {
+        background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 -17px;
+        padding-left: 15px;
+        border-bottom: 1px dotted #aaa;
+        line-height: 26px;
+        overflow: hidden;
+        height: 26px;
+    }
+
+/*内页右侧--采购信息*/
+.nrtab .stock {
+    padding: 10px;
+}
+
+    .nrtab .stock li {
+        padding-left: 15px;
+        border-bottom: 1px dotted #aaa;
+        line-height: 26px;
+        overflow: hidden;
+        height: 26px;
+    }
+
+.nrtab .pic {
+    overflow: hidden;
+    padding: 6px 2px 6px 7px;
+    line-height: 18px;
+}
+
+    .nrtab .pic dl {
+        float: left;
+        width: 182px;
+        margin-bottom: 10px;
+    }
+
+        .nrtab .pic dl dt {
+            height: 164px;
+            width: 164px;
+            position: relative;
+            float: left;
+            overflow: hidden;
+            background: url("li_bg1.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/li_bg1.gif*/ no-repeat;
+            padding: 3px 10px 11px 3px;
+            display: table;
+        }
+
+            .nrtab .pic dl dt a {
+                overflow: hidden;
+                text-align: center;
+                display: block;
+                height: 164px;
+                width: 164px;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+                .nrtab .pic dl dt a img {
+                    overflow: hidden;
+                    max-height: 164px;
+                    max-width: 164px;
+                    vertical-align: middle;
+                    display: block;
+                    margin: 0 auto;
+                }
+
+        .nrtab .pic dl dd {
+            width: 182px;
+            text-align: center;
+        }
+
+.picshow {
+    width: 988px;
+    border: 1px solid #e3e3e3;
+    background: #f6f6f6;
+    margin: 0 auto;
+    text-align: left;
+}
+
+    .picshow .pic_tit {
+        background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ repeat-x 0 -252px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .picshow .piclist .rollpic {
+        float: left;
+        width: 645px;
+        padding: 18px 0 0 25px;
+    }
+
+        .picshow .piclist .rollpic li {
+            width: 118px;
+            height: 118px;
+            position: relative;
+            float: left;
+            margin: 0 10px;
+            overflow: hidden;
+            padding: 3px 4px 11px 3px;
+        }
+
+            .picshow .piclist .rollpic li a {
+                position: relative;
+                overflow: hidden;
+                text-align: center;
+                width: 118px;
+                height: 118px;
+                display: block;
+            }
+
+            .picshow .piclist .rollpic li img {
+                width: 114px;
+                height: 114px;
+                border: 1px solid #ddd;
+                padding: 1px;
+            }
+
+        .picshow .piclist .rollpic .mousehover a, .picshow .piclist .rollpic .mousehover a:link, .picshow .piclist .rollpic .mousehover a:visited, .picshow .piclist .rollpic .mousehover a:hover {
+            width: 24px;
+            height: 119px;
+            display: block;
+            float: left;
+        }
+
+        .picshow .piclist .rollpic .mousehover a {
+            background: url("left1.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/left1.gif*/ no-repeat;
+        }
+
+            .picshow .piclist .rollpic .mousehover a:hover {
+                background: url("left2.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/left2.gif*/ no-repeat;
+            }
+
+        .picshow .piclist .rollpic .mousehover1 a, .picshow .piclist .rollpic .mousehover1 a:link, .picshow .piclist .rollpic .mousehover1 a:visited, .picshow .piclist .rollpic .mousehover1 a:hover {
+            width: 24px;
+            height: 119px;
+            display: block;
+            float: left;
+        }
+
+        .picshow .piclist .rollpic .mousehover1 a {
+            background: url("right2.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/right2.gif*/ no-repeat;
+        }
+
+            .picshow .piclist .rollpic .mousehover1 a:hover {
+                background: url("right1.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/right1.gif*/ no-repeat;
+            }
+
+/*内页右侧--产品展示*/
+.nrtab .pro dl {
+    float: left;
+    padding: 6px 5px 6px 11px;
+}
+
+.nrtab .pro dt {
+    width: 164px;
+    height: 164px;
+    *line-height: 164px;
+    border: 1px solid #ddd;
+    text-align: center;
+    overflow: hidden;
+    padding: 1px;
+    margin-bottom: 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    .nrtab .pro dt a {
+        height: 100%;
+        vertical-align: middle\9;
+        _writing-mode: tb-rl;
+    }
+
+    .nrtab .pro dt img {
+        vertical-align: middle;
+        max-height: 164px !important;
+        max-width: 164px !important;
+        width: expression(this.width > 164 && this.width > this.height ? 164 :true);
+        height: expression(this.height >164 ? 164: true);
+        vertical-align: middle;
+        overflow: hidden;
+    }
+
+.proshow2 {
+    width: 725px;
+    border-bottom: 1px dotted #939393;
+    height: 130px;
+    margin-top: 10px;
+}
+
+    .proshow2 .img1 {
+        overflow: hidden;
+        width: 112px;
+        height: 112px;
+        line-height: 110px;
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 1px;
+        _padding: 0;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+        .proshow2 .img1 a {
+            height: 100%;
+            vertical-align: middle\9;
+            _writing-mode: tb-rl;
+        }
+
+        .proshow2 .img1 img {
+            vertical-align: middle;
+            max-height: 110px;
+            max-width: 110px;
+        }
+
+/*内页右侧--供应产品*/
+.way, .way1 {
+    width: 16px;
+    height: 15px;
+    display: block;
+}
+
+.way {
+    background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 -44px;
+}
+
+.way1 {
+    background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 -65px;
+}
+
+.price {
+    height: 17px;
+    width: 100px;
+    border: 1px solid #cfcfcf;
+    margin-right: 7px;
+    background: #fff;
+    padding: 0 5px;
+    color: #313131;
+}
+
+    .price li {
+        float: left;
+        height: 17px;
+        line-height: 17px;
+        width: 50px;
+    }
+
+    .price .raise {
+        background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 -106px;
+        padding-left: 15px;
+        width: 15px;
+    }
+
+    .price .descend {
+        background: url("ico.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/ico.gif*/ no-repeat 0 -106px;
+        padding-left: 15px;
+        width: 15px;
+    }
+
+/*内页右侧--产品详细页*/
+.pro_dt {
+    width: 350px;
+    height: 415px;
+    margin-left: 7px;
+    overflow: hidden;
+    float: left;
+}
+
+    .pro_dt .p_img {
+        overflow: hidden;
+        width: 310px;
+        height: 310px;
+        line-height: 304px;
+        *height: 308px;
+        text-align: center;
+        padding: 7px 9px 10px 9px;
+        background: url("pro_info.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/pro_info.gif*/ no-repeat;
+    }
+
+        .pro_dt .p_img a {
+            height: 100%;
+            vertical-align: middle\9;
+            _writing-mode: tb-rl;
+        }
+
+        .pro_dt .p_img img {
+            vertical-align: middle;
+            max-height: 308px;
+            max-width: 308px;
+            width: expression(this.width > 308 && this.width > this.height ? 308 :true);
+            height: expression(this.height >308 ? 308: true);
+            vertical-align: middle;
+            overflow: hidden;
+        }
+
+    .pro_dt .xiaotu li {
+        overflow: hidden;
+        width: 62px;
+        height: 62px;
+        line-height: 60px;
+        *height: 64px;
+        border: 1px solid #ddd;
+        text-align: center;
+        float: left;
+        margin: 0 10px;
+        _margin: 0 8px;
+    }
+
+        .pro_dt .xiaotu li a {
+            height: 100%;
+            vertical-align: middle\9;
+            _writing-mode: tb-rl;
+        }
+
+        .pro_dt .xiaotu li img {
+            vertical-align: middle;
+            max-height: 60px;
+            max-width: 60px;
+            width: expression(this.width > 60 && this.width > this.height ? 60 :true);
+            height: expression(this.height >60 ? 60: true);
+            vertical-align: middle;
+            overflow: hidden;
+        }
+
+.pro_font {
+    width: 360px;
+    float: right;
+    margin-right: 10px;
+}
+
+    .pro_font .date {
+        width: 360px;
+        line-height: 26px;
+    }
+
+        .pro_font .date li {
+            border-bottom: 1px dotted #b7b7b7;
+            height: 38px;
+            line-height: 38px;
+        }
+
+            .pro_font .date li span {
+                width: 165px;
+                font-weight: bold;
+                text-align: center;
+                display: block;
+                float: left;
+            }
+
+#tabsub {
+    width: 720px;
+    float: left;
+    border-bottom: 1px solid #949494;
+}
+
+    #tabsub li {
+        width: 83px;
+        height: 24px;
+        border: 1px solid #949494;
+        border-bottom: 0;
+        line-height: 24px;
+        text-align: center;
+        float: left;
+        display: inline-block;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right: 5px;
+        color: #636363;
+    }
+
+    #tabsub .active {
+        background: #fff;
+        color: #ff6600;
+        font-weight: bold;
+        position: relative;
+        top: 1px;
+    }
+
+#div2 li {
+    width: 720px;
+    display: none;
+    margin-top: 10px;
+    float: left;
+}
+
+/*供应商的其他相关信息*/
+.supply {
+    width: 720px;
+    float: left;
+}
+
+    .supply .s_tit {
+        height: 25px;
+        line-height: 25px;
+        background: #ececec;
+        width: 720px;
+        border-top: 1px solid #a9a9a9;
+    }
+
+.rollpic1 {
+    float: left;
+    width: 720px;
+    padding-bottom: 15px;
+}
+
+    .rollpic1 div {
+        float: left;
+        width: 700px;
+        height: 140px;
+        overflow: hidden;
+    }
+
+    .rollpic1 li {
+        overflow: hidden;
+        width: 118px;
+        height: 118px;
+        line-height: 116px;
+        *height: 120px;
+        border: 1px solid #ddd;
+        text-align: center;
+        position: relative;
+        float: left;
+        margin: 15px 10px;
+        _margin: 15px 7px;
+    }
+
+        .rollpic1 li a {
+            height: 100%;
+            vertical-align: middle\9;
+            _writing-mode: tb-rl;
+        }
+
+        .rollpic1 li img {
+            vertical-align: middle;
+            max-height: 115px;
+            max-width: 115px;
+        }
+
+    .rollpic1 .mousehover1 a, .rollpic1 .mousehover1 a:link, .rollpic1 .mousehover1 a:visited, .rollpic1 .mousehover1 a:hover {
+        width: 9px;
+        height: 18px;
+        display: block;
+        float: left;
+        margin-top: 60px;
+    }
+
+    .rollpic1 .mousehover1 a {
+        background: url("p_left.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/p_left.gif*/ no-repeat;
+    }
+
+        .rollpic1 .mousehover1 a:hover {
+            background: url("p_right1.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/p_right1.gif*/ no-repeat;
+        }
+
+    .rollpic1 .mousehover2 a, .rollpic1 .mousehover2 a:link, .rollpic1 .mousehover2 a:visited, .rollpic1 .mousehover2 a:hover {
+        width: 9px;
+        height: 18px;
+        display: block;
+        float: left;
+        margin-top: 60px;
+    }
+
+    .rollpic1 .mousehover2 a {
+        background: url("p_left1.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/p_left1.gif*/ no-repeat;
+    }
+
+        .rollpic1 .mousehover2 a:hover {
+            background: url("p_right.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/p_right.gif*/ no-repeat;
+        }
+
+/*兼容谷歌浏览器*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .proshow1 dt, .r_honor dt {
+        overflow: hidden;
+        width: 166px;
+        height: 166px;
+        line-height: 164px;
+        *height: 168px;
+        border: 1px solid #ddd;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .proshow2 .img1 a {
+        overflow: hidden;
+        width: 114px;
+        height: 114px;
+        line-height: 112px;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .honor1 dt {
+        overflow: hidden;
+        width: 300px;
+        height: 300px;
+        line-height: 300px;
+        border: 1px solid #ddd;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+/*内页右侧--服务项目*/
+.nrtab .ser dl {
+    float: left;
+    padding: 10px 9px;
+    line-height: 22px;
+    width: 350px;
+}
+
+.nrtab .ser dt {
+    overflow: hidden;
+    width: 164px;
+    height: 164px;
+    line-height: 164px;
+    *height: 166px;
+    padding: 1px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 10px;
+    display: table;
+}
+
+    .nrtab .ser dt a {
+        height: 100%;
+        vertical-align: middle\9;
+        _writing-mode: tb-rl;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .nrtab .ser dt img {
+        vertical-align: middle;
+        max-height: 164px;
+        max-width: 164px;
+    }
+
+.nrtab .ser dd {
+    width: 166px;
+    float: left;
+    word-break: break-all;
+}
+
+.nrtab .ser2 dl {
+    float: left;
+    margin: 10px;
+    padding: 0 3px 10px 3px;
+    line-height: 20px;
+    border-bottom: 1px dotted #ddd;
+    width: 700px;
+}
+
+.nrtab .ser2 dt {
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    *height: 112px;
+    padding: 1px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    float: left;
+    display: table;
+}
+
+    .nrtab .ser2 dt a {
+        height: 100%;
+        vertical-align: middle\9;
+        _writing-mode: tb-rl;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .nrtab .ser2 dt img {
+        vertical-align: middle;
+        max-height: 110px;
+        max-width: 110px;
+    }
+
+.serdetail {
+    background-color: #f7f7f7;
+    border-bottom: 1px dotted #cdcdcd;
+    padding: 15px 20px;
+    height: 180px;
+    line-height: 26px;
+}
+
+    .serdetail dt {
+        width: 160px;
+        height: 160px;
+        overflow: hidden;
+        float: left;
+        margin-right: 15px;
+        background: url("serimg.jpg")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/serimg.jpg*/ no-repeat;
+        padding: 7px 9px 9px 7px;
+    }
+
+.sershow {
+    padding: 30px 25px;
+    line-height: 28px;
+}
+
+/*底部*/
+.botomtab {
+    width: 100%;
+    border-top: 1px solid #c5c5c5;
+    background: #efefef;
+    padding: 15px 0;
+}
+
+.footer {
+    width: 990px;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.error {
+    border: solid 1px red;
+}
+
+.cl:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.cl {
+    zoom: 1;
+}
+
+#sildes {
+    padding: 20px 0 50px;
+}
+
+.container {
+    width: 640px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.control {
+    width: 640px;
+    height: 510px;
+    background: #fff;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.change li {
+    width: 508px;
+    margin-left: 70px;
+    overflow: hidden;
+    text-align: center;
+}
+
+    .change li .imgWrap {
+        display: table-cell;
+        width: 508px;
+        height: 510px;
+        vertical-align: middle;
+        cursor: pointer;
+        *display: block;
+        line-height: 510px;
+        font-size: 510px;
+        *font-size: 446px;
+        text-align: center;
+        vertical-align: middle;
+        font-family: Arial;
+        cursor: pointer;
+    }
+
+    .change li img {
+        max-height: 510px;
+        max-width: 510px;
+        width: expression(this.width > 500 && this.width > this.height ? 500 :true);
+        height: expression(this.height >500 ? 500: true);
+        vertical-align: middle;
+        overflow: hidden;
+        padding: 3px;
+        border: 1px solid #CCC;
+        background-color: #FFF;
+    }
+
+/* 分页 */
+.pageClass {
+    text-align: center;
+    z-index: 9;
+    position: absolute;
+    top: 50px;
+    padding-top: 10px;
+}
+
+    .pageClass a {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0 3px;
+        overflow: hidden;
+        border: 1px solid #bebebe;
+        background: #bebebe;
+        border-radius: 5px;
+        outline: none;
+    }
+
+        .pageClass a span {
+            display: none;
+        }
+
+        .pageClass a:hover, .pageClass a.cur {
+            border: 1px solid #be230a;
+            background: #be230a;
+        }
+
+.picshow .picshow1 {
+    overflow: hidden;
+    float: left;
+    padding: 6px 5px 6px 25px;
+    _padding: 6px 5px 6px 0px;
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+    .picshow .picshow1 li {
+        width: 110px;
+        height: 151px;
+        float: left;
+        margin: 0 15px;
+        overflow: hidden;
+        background: url("li_bg3.gif")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/li_bg3.gif*/ no-repeat;
+        padding: 3px 11px 11px 3px;
+    }
+
+        .picshow .picshow1 li a {
+            overflow: hidden;
+            text-align: center;
+            width: 114px;
+            height: 114px;
+            text-align: center;
+        }
+
+            .picshow .picshow1 li a img {
+                vertical-align: text-top;
+                width: 114px;
+                height: 114px;
+                overflow: hidden;
+                display: table-cell;
+                *display: block;
+                line-height: 114px;
+                font-size: 114px;
+                *font-size: 100px;
+                vertical-align: middle;
+                cursor: pointer;
+            }
+
+#header {
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.toplogo {
+    float: left;margin-top: 10px;
+}
+.logo {
+    /*非IE的主流浏览器识别的垂直居中的方法*/
+    display: table-cell;
+    vertical-align: middle;
+    /*设置水平居中*/
+    text-align: center;
+    /* 针对IE的Hack */
+    *display: block;
+    *font-size: 75px; /*约为高度的0.873，200*0.873 约为175*/
+    *font-family: Arial; /*防止非utf-8引起的hack失效问题，如gbk编码*/
+    padding: 0;
+    width: 100px;
+    height: 80px;
+    *width: auto;
+    *height: auto;
+    text-align: center;
+}
+
+    .logo img {
+        vertical-align: middle;
+        max-width: 100px;
+        max-height: 80px;
+        _width: 100px;
+        _height: 80px;
+    }
+
+.comtit {
+    width: 700px;
+    height: 60px;
+    text-align: left;
+    color: rgb(0, 49, 98);
+    line-height: 70px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    font-family: "微软雅黑",Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+}
+
+.toprighttxt {
+    text-align: right;
+    color: rgb(119, 119, 119);
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 5px;
+    vertical-align: bottom;
+    float: right;
+    display: inline;
+}
+
+.page {
+    text-align: center;
+}
+
+.stitle {
+    width: 160px;
+    overflow: hidden;
+    height: 40px;
+}
+
+.jogger {
+    color: #117fbe;
+    text-align: left;
+}
+
+    .jogger a {
+        margin: 2px;
+        padding: 0 4px 0 4px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+        .jogger a:hover {
+            margin: 2px;
+            padding: 0 4px 0 4px;
+        }
+
+        .jogger a:active {
+            margin: 2px;
+            padding: 0 4px 0 4px;
+        }
+
+    .jogger span.current {
+        margin: 2px;
+        padding: 0 4px 0 4px;
+        color: #117fbe;
+        border: 1px solid #1884b7;
+        display: inline-block;
+    }
+
+    .jogger span.disabled {
+        display: none;
+    }
+
+    .jogger span.spanPagex {
+        float: left;
+    }
+
+.MpBoxBg {
+    background: url("blue_bg3.jpg")/*tpa=http://www.jdzj.com/JDZJStyle/Shop/images/blue_bg3.jpg*/ no-repeat;
+    color: #fff;
+}
+
+.MpBox h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.MpBox p.P19color {
+    color: #bb0505;
+}
+
+.MpBox {
+    width: 589px;
+    height: 306px;
+    float: left;
+    margin: 0 0 70px 50px;
+    padding: 20px 0 0 60px;
+    display: inline;
+}
+
+    .MpBox h1 {
+        width: 380px;
+        height: 50px;
+        line-height: 22px;
+        font-size: 20px;
+        text-align: left;
+        margin: 10px 0 0 20px;
+        display: inline;
+        float: left;
+        border: 0;
+    }
+
+    .MpBox p.P17 {
+        width: 400px;
+        height: 20px;
+        line-height: 20px;
+        float: left;
+        text-align: center;
+    }
+
+    .MpBox p.P18 {
+        width: 400px;
+        line-height: 24px;
+        float: left;
+        text-align: left;
+        margin: 2px 0 0 40px;
+        display: inline;
+    }
+
+    .MpBox p.P19 {
+        width: 180px;
+        height: 21px;
+        line-height: 21px;
+        float: left;
+        text-align: center;
+        margin: 12px 0 0 40px;
+        display: inline;
+    }
+
+    .MpBox p.P20 {
+        width: 120px;
+        height: 28px;
+        float: left;
+        margin: 2px 10px 0 140px;
+        display: inline;
+    }
+
+.Boxbottom {
+    width: 738px;
+    height: 29px;
+    float: left;
+    padding: 5px 0 0 0;
+    display: inline;
+    text-align: right;
+}

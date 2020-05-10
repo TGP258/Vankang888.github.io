@@ -1,0 +1,109 @@
+/* 代码整理：懒人之家 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.newkefu {
+    BORDER-BOTTOM: #ccc 0px solid;
+    BORDER-LEFT: #ccc 0px solid;
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+    BORDER-TOP: #ccc 0px solid;
+    BORDER-RIGHT: #ccc 0px solid;
+}
+
+#newkefu_right {
+    POSITION: absolute;
+    MARGIN: 10px;
+    WIDTH: 176px;
+    HEIGHT: auto;
+    OVERFLOW: hidden;
+    TOP: 80px;
+    RIGHT: 3px;
+}
+
+* {
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px;
+}
+
+.kefu {
+    POSITION: fixed;
+    TEXT-ALIGN: center;
+    WIDTH: 176px;
+    OVERFLOW: hidden;
+    TOP: 80px;
+    RIGHT: 3px;
+}
+
+.newkefu_bar {
+    FLOAT: right;
+    MARGIN-LEFT: 1px;
+    CURSOR: pointer;
+}
+
+.newkefu_group {
+    TEXT-ALIGN: center;
+    WIDTH: 140px;
+    FLOAT: right;
+    HEIGHT: auto;
+    OVERFLOW: hidden;
+}
+
+    .newkefu_group .shouqian_mid {
+        PADDING-BOTTOM: 5px;
+        BACKGROUND: url("kefu-middle.png")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/qq/kefu-middle.png*/ repeat-y;
+        HEIGHT: auto;
+        OVERFLOW: hidden;
+        PADDING-TOP: 5px;
+    }
+
+        .newkefu_group .shouqian_mid UL {
+            MARGIN: 0px;
+        }
+
+        .newkefu_group .shouqian_mid LI {
+            LIST-STYLE-TYPE: none;
+            MARGIN: 5px 0px;
+            LIST-STYLE-IMAGE: none;
+        }
+
+    .newkefu_group .shouhou_mid {
+        BACKGROUND: url("kefu-middle.png")/*tpa=http://www.jdzj.com/shop/Template/moban1/style/img/qq/kefu-middle.png*/ repeat-y;
+        HEIGHT: auto;
+        OVERFLOW: hidden;
+        PADDING-TOP: 5px;
+    }
+
+        .newkefu_group .shouhou_mid UL {
+            MARGIN: 0px;
+        }
+
+        .newkefu_group .shouhou_mid LI {
+            LIST-STYLE-TYPE: none;
+            MARGIN: 5px 0px;
+            LIST-STYLE-IMAGE: none;
+        }
+
+    .newkefu_group .line {
+        TEXT-ALIGN: left;
+        MARGIN: 5px 10px 0px 8px;
+        BORDER-TOP: #ccc 1px dashed;
+    }
+
+        .newkefu_group .line SPAN {
+            MARGIN-TOP: 5px;
+            COLOR: #000;
+            FONT-SIZE: 13px;
+        }
+
+            .newkefu_group .line SPAN STRONG {
+                BORDER-BOTTOM: medium none;
+                PADDING-BOTTOM: 0px;
+                MARGIN-TOP: 0px;
+                COLOR: #900;
+                MARGIN-LEFT: 0px;
+                FONT-SIZE: 13px;
+            }
